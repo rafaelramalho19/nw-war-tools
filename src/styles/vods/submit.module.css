@@ -1,0 +1,17 @@
+@keyframes fadeAway {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.afterSuccess {
+  animation: fadeAway 0.3s ease-in-out both;
+}
+
+.successText {
+  animation: fadeAway 0.3s ease-in-out both reverse;
+}

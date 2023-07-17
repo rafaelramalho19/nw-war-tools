@@ -1,22 +1,33 @@
 {
-  "name": "nuxt-app",
+  "name": "nw-war-tools-next",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
-  },
-  "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18",
-    "eslint": "^8.44.0",
-    "nuxt": "^3.6.2"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@nuxtjs/eslint-module": "^4.1.0",
-    "@pinia/nuxt": "^0.4.11",
-    "pinia": "^2.1.4"
+    "@prisma/client": "5.0.0",
+    "@types/react": "18.2.15",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.10",
+    "next": "13.4.10",
+    "node-cron": "^3.0.2",
+    "postcss": "8.4.26",
+    "puppeteer": "^20.8.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-twitch-embed": "^3.0.1",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.2",
+    "prisma": "^5.0.0"
   }
 }
