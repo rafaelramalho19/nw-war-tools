@@ -16,6 +16,8 @@
     "axios": "^1.4.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
     "next": "13.4.10",
     "node-cron": "^3.0.2",
     "postcss": "8.4.26",
@@ -24,9 +26,12 @@
     "react-dom": "18.2.0",
     "react-twitch-embed": "^3.0.1",
     "tailwindcss": "3.3.3",
+    "tesseract.js": "^4.1.1",
     "typescript": "5.1.6"
   },
   "devDependencies": {
+    "@types/ffmpeg": "^1.0.4",
+    "@types/fluent-ffmpeg": "^2.1.21",
     "@types/node": "20.4.2",
     "prisma": "^5.0.0"
   }
